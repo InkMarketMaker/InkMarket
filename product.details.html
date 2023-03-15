@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All Commissions - InkMarket</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://kit.fontawesome.com/9403fdf829.css"
+            crossorigin="anonymous" />
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="My%20project.png" width="125" />
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Account</a></li>
+                        </ul>
+                        <img src="cart.png" width="30px" height="30px" />
+                        <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+                    </nav>
+                </div>
+             
+            </div>
+        </div>
+  
+        
+        
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>All Commisions</h2>
+                <select>
+                    <option>Default Sorting</option>
+                    <option>Sort by Price</option>
+                    <option>Sort by Popularity</option>
+                    <option>Sort by Medium</option>
+                    <option>Sort by Style</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="row">
+            <div class="col-4">
+                <img src="My%20project%20(1).png" />
+                <h4>Looking for a Crystal Beaded Bracelet</h4>
+                <div class="ratings">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>$22.50</p>
+            </div>
+           
+            </div>
+        </div> 
+    <!------footer------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Check Us Out!</h3>
+                    <p>Our artists are very adept with tech! Find and connect with your favorite artists on social media</p>
+                </div>
+                 <div class="footer-col-2">
+                    <img src="My%20project.png" width="150px">
+                     <p> Our mission is to create products for people, by people.</p>
+                </div>
+                 <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                     <ul>
+                         <li>Coupons</li>
+                         <li>Blog Posts</li>
+                         <li>Return Policy</li>
+                         <li>Affiliates</li>
+                     </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                     <ul>
+                         <li>Twitter</li>
+                         <li>Instagram</li>
+                         <li>Facebook</li>
+                         <li>Youtube</li>
+                     </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Shelby M. Graham</p>
+        </div>
+     </div>
+<!------ js for toggle menu ------>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function MenuToggle(){
+        if MenuItems.style.maxHeight == "0px"
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else
+            {
+                MenuItems.style.maxHeight == "0px"
+            }
+    }
+</script>
+            
+    </body>
+</html>
